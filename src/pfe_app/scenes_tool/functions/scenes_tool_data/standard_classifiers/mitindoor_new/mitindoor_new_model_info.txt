@@ -1,0 +1,9 @@
+Learning rate: 80 %
+
+Activation: Softmax
+Optimizer: Adamax
+
+β: 1.5
+N: 27
+
+Accuracy: 42.101 %

@@ -1,0 +1,14 @@
+Dataset: MIT-Indoor partial (All scenes annotated)
+
+Learning rate: 80 %
+
+Activation: Sigmoid
+Optimizer: RMSprop
+
+β: 1.5
+N: 27
+
+percentage: 20%
+max_objects_categories: 4
+
+Accuracy: 85.685 %

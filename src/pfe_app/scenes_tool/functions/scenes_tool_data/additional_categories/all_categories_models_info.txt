@@ -1,0 +1,24 @@
+Dataset: MIT-Indoor partial (All scenes annotated)
+
+Learning rate: 80 %
+
+Activation: Sigmoid
+Optimizer: RMSprop
+
+N: 16
+β: 0.6
+
+Category 1
+----------
+Classes: Private / Public / Either
+Accuracy: 93.592 %
+
+Category 2
+----------
+Classes: Transport / No transport
+Accuracy: 99.806 %
+
+Category 3
+----------
+Classes: Relaxation / Intellectual / Nothing
+Accuracy: 96.117 %

@@ -1,0 +1,12 @@
+Learning rate: 80 %
+
+Activation: Softmax
+Optimizer: Adamax
+
+β: 14.0
+N: 35
+
+percentage: 50%
+max_objects_categories: 10
+
+Accuracy: 51.982 %

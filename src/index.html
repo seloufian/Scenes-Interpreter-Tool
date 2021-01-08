@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Scenes classifier and interpreter tool</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="website_data/index_style.css">
+</head>
+<body>
+	<header>Scenes classifier and interpreter tool</header>
+
+	<nav>
+		<button id="input_btn">Input image and<br>parameter tuning</button>
+		<button id="output_btn">Detailed<br>results</button>
+	</nav>
+
+	<section id='input_data'>
+		<section id="image_vis">
+			<div id="upload_info" class="image_vis_info">
+				<p id="image_import_info">Import an image</p>
+				<p id="image_drop_info">or drag-and-drop it here</p>
+			</div>
+
+			<div id="drop_info" class="image_vis_info"></div>
+			<canvas id="dropped_image"></canvas>
+		</section>
+
+		<section id="action_select">
+			<button id="sel_class">Classification</button>
+			<button id="sel_inter">Interpretation</button>
+		</section>
+
+		<section id="params" class="structured_data">
+			<div id="param_dataset">
+				<p>Used dataset:</p>
+				<button>MIT-Indoor</button>
+				<button>Sun2012</button>
+			</div>
+
+			<div id="param_enrichment">
+				<p>Enrichment:</p>
+				<button>Yes</button>
+				<button>No</button>
+			</div>
+		</section>
+
+		<button id="start_tool">Start classification<br>and show results</button>
+	</section>
+
+	<div id="wait_frame">Please wait until process finish!</div>
+
+	<section id="output_data" class="structured_data">
+		<section id="out_image_vis">
+			<canvas></canvas>
+		</section>
+
+		<section id="out_classif">
+			<div id="pred_category">
+				<p>Predicted category:</p>
+				<input readonly>
+			</div>
+
+			<div id="detailed_res">
+				<p>Detailed results:</p>
+				<br>
+				<div class="table_container">
+					<table>
+						<thead>
+							<tr>
+								<th>Rank</th>
+								<th>Category</th>
+								<th>Probability</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<section id="out_interp">
+			<div id="img_caption">
+				<p>Image caption:</p>
+				<textarea cols="30" rows="4" readonly></textarea>
+			</div>
+			<div id="img_graph">
+				<p>Image graph:</p>
+				<br>
+				<canvas></canvas>
+			</div>
+		</section>
+	</section>
+
+	<script src="website_data/import_image.js"></script>
+	<script src="website_data/input_data.js"></script>
+	<script src="website_data/output_data.js"></script>
+</body>
+</html>

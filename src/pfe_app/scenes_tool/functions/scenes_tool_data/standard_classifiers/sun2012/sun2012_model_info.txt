@@ -1,0 +1,9 @@
+Learning rate: Predefined
+
+Activation: Softmax
+Optimizer: Nadam
+
+β: 0.0
+N: 37
+
+Accuracy: 47.357 %

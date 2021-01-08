@@ -1,0 +1,8 @@
+numpy>=1.19.1
+Pillow>=8.1.0
+matplotlib>=3.2.2
+tensorflow==2.0.0
+networkx>=2.4
+inflect==4.1.0
+Django==3.0.5
+django-cors-headers==3.4.0

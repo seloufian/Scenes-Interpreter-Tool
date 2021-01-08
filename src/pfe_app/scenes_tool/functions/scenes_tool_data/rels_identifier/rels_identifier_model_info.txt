@@ -1,0 +1,10 @@
+Learning rate: 80 %
+
+Activation: Softmax
+Optimizer: Nadam
+
+β: 7.0
+N: 7
+Max objects in output: 7
+
+Accuracy: 66.651 %
