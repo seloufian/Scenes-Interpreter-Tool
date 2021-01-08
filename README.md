@@ -73,7 +73,7 @@ Screenshots of the developed application. A [video (with comments in French) is 
 └── requirements.txt                                          <- Libraries required by Python
 ```
 
-Note that the [Master's thesis](https://github.com/seloufian/Scenes-Interpreter-Tool/blob/master/master%27s+thesis/Classification+and+interpretation+of+object-based+scenes.pdf) is in French.
+Note that the [Master's thesis](https://github.com/seloufian/Scenes-Interpreter-Tool/blob/master/master's%20thesis/Classification%20and%20interpretation%20of%20object-based%20scenes.pdf) is in French.
 
 ## Technologies
 
